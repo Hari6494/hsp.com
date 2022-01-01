@@ -1,0 +1,4 @@
+{
+    "csharp.semanticHighlighting.enabled": true,
+    "omnisharp.enableMsBuildLoadProjectsOnDemand": true
+}
