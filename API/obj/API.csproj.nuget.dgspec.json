@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\12.hsp.com\\hsp.com\\API\\API.csproj": {}
+    "F:\\12.hsp.com\\hsp.com\\API\\API.csproj": {}
   },
   "projects": {
-    "f:\\12.hsp.com\\hsp.com\\API\\API.csproj": {
+    "F:\\12.hsp.com\\hsp.com\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\12.hsp.com\\hsp.com\\API\\API.csproj",
+        "projectUniqueName": "F:\\12.hsp.com\\hsp.com\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "f:\\12.hsp.com\\hsp.com\\API\\API.csproj",
+        "projectPath": "F:\\12.hsp.com\\hsp.com\\API\\API.csproj",
         "packagesPath": "C:\\Users\\HARI PRASAD\\.nuget\\packages\\",
-        "outputPath": "f:\\12.hsp.com\\hsp.com\\API\\obj\\",
+        "outputPath": "F:\\12.hsp.com\\hsp.com\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -24,6 +24,7 @@
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +43,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.13, )"
